@@ -15,7 +15,6 @@ import java.util.*;
  * This class represents a multi Agents Arena which move on a graph -
  * grabs Pokemons and avoid the Zombies.
  *
- * @author boaz.benmoshe
  */
 public class Arena {
     public static final double EPS1 = 0.000001, EPS2 = EPS1 * EPS1, EPS = EPS2;
