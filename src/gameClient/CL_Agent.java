@@ -99,7 +99,7 @@ public class CL_Agent {
     /**
      * if the agent moves right- return true. else- return false
      * @param dest
-     * @return
+     * @return ans
      */
     public boolean setNextNode(int dest) {
         boolean ans = false;
@@ -123,7 +123,7 @@ public class CL_Agent {
 
     /**
      * check if the agent know where to move
-     * @return
+     * @return true/false
      */
     public boolean isMoving() {
         return this._curr_edge != null;
@@ -131,7 +131,7 @@ public class CL_Agent {
 
     /**
      * toString for agent
-     * @return
+     * @return toJSON()
      */
 
     public String toString() {
@@ -174,7 +174,7 @@ public class CL_Agent {
      * return the dest of the agent edge.
      * if the agent is moving - return the node key that the agent
      * is moving to him. if its not moving- return -1
-     * @return
+     * @return ans
      */
     public int getNextNode() {
         int ans = -2;

@@ -44,7 +44,7 @@ public class CL_Pokemon implements Comparable<CL_Pokemon> {
 
     /**
      * function that returns the edge that the Pokemon is on it.
-     * @return
+     * @return _edge
      */
     public edge_data get_edge() {
         return _edge;
@@ -60,7 +60,7 @@ public class CL_Pokemon implements Comparable<CL_Pokemon> {
 
     /**
      * return the pokemon location.
-     * @return
+     * @return _pos
      */
     public Point3D getLocation() {
         return _pos;
@@ -68,7 +68,7 @@ public class CL_Pokemon implements Comparable<CL_Pokemon> {
 
     /**
      * return the pokemon type
-     * @return
+     * @return _type
      */
     public int getType() {
         return _type;

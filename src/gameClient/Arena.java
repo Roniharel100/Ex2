@@ -110,7 +110,7 @@ public class Arena {
 
     /**
      * return a graph that in the arena
-     * @return
+     * @return _gg
      */
     public directed_weighted_graph getGraph() {
         return _gg;
@@ -131,7 +131,7 @@ public class Arena {
      * of the agents.
      * @param aa
      * @param gg
-     * @return
+     * @return ans
      */
     public static List<CL_Agent> getAgents(String aa, directed_weighted_graph gg) {
         ArrayList<CL_Agent> ans = new ArrayList<CL_Agent>();
@@ -154,7 +154,7 @@ public class Arena {
      * function that get string of pokemons and creates
      * list of the pokemons.
      * @param fs
-     * @return
+     * @return ans
      */
     public static ArrayList<CL_Pokemon> json2Pokemons(String fs) {
         ArrayList<CL_Pokemon> ans = new ArrayList<CL_Pokemon>();

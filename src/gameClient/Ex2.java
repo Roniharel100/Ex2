@@ -48,7 +48,7 @@ public class Ex2 implements Runnable {
 //      System.out.println(game.getPokemons());
 //      System.out.println(game);
 
-//        game.login(ID);
+        game.login(ID);
         String g = game.getGraph();
         String pks = game.getPokemons();
         directed_weighted_graph gg = buildGraphFromJason(game.getGraph());

@@ -36,7 +36,7 @@ public interface game_service extends Serializable{
 	 */
 	public String getAgents();
 	/** 
-	 * This method allows the user to add & locate the agents,
+	 * This method allows the user to add and locate the agents,
 	 * all should be located in order to start a game.   
 	 * 
 	 * @param start_node - the vertex in the graph from which the agent will start.

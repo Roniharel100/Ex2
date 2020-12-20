@@ -6,7 +6,7 @@ public class Node_Data_DS implements node_data {
 
     /**
      * geoLocation:
-     * * This interface represents a geo location <x,y,z>, aka Point3D
+     * * This interface represents a geo location (x,y,z), aka Point3D
      */
     public static class geoLocation implements geo_location {
         private double x;
@@ -71,7 +71,7 @@ public class Node_Data_DS implements node_data {
             x = Math.pow(g.x() - this.x, 2);
             y = Math.pow(g.x() - this.y, 2);
             z = Math.pow(g.x() - this.z, 2);
-            distance=Math.sqrt(x+y+z);
+            distance = Math.sqrt(x + y + z);
             return distance;
         }
 
@@ -86,6 +86,7 @@ public class Node_Data_DS implements node_data {
 
         /**
          * check if two geo_location are equals
+         *
          * @param o
          * @return true if equals, else- false
          */
@@ -107,7 +108,7 @@ public class Node_Data_DS implements node_data {
 
     /**
      * Node_Data_DS:
-     *
+     * <p>
      * This class represents the set of operations applicable on a
      * node in a directional weighted graph.
      */
@@ -146,7 +147,11 @@ public class Node_Data_DS implements node_data {
     /**
      * Node_Data_DS copy constructor.
      *
-     * @param key, info, location, node weight, tag
+     * @param key
+     * @param info
+     * @param location
+     * @param nodeWeight
+     * @param tag
      */
     public Node_Data_DS(int key, String info, geo_location location, double nodeWeight, int tag) {
         this.key = key;
@@ -159,7 +164,8 @@ public class Node_Data_DS implements node_data {
     /**
      * Node_Data_DS copy constructor.
      *
-     * @param key, location
+     * @param key
+     *  @param location
      */
     public Node_Data_DS(int key, geo_location location) {
         this.key = key;

@@ -47,9 +47,9 @@ public class DWGraph_DS implements directed_weighted_graph {
         /**
          * EdgeData
          */
-        private int src; //ממי יוצא
-        private int dest; // למי מגיע
-        private double edgeWeight; //המשקל שלו
+        private int src;
+        private int dest;
+        private double edgeWeight;
         private String info;
         private int tag;
 
@@ -57,7 +57,9 @@ public class DWGraph_DS implements directed_weighted_graph {
         /**
          * EdgeData constructor
          *
-         * @param src, dest, w
+         * @param src
+         * @param dest
+         * @param w
          */
         public EdgeData(int src, int dest, double w) {
             this.src = src;
@@ -215,8 +217,6 @@ public class DWGraph_DS implements directed_weighted_graph {
 
     /**
      * constructor for DWGraph_DS to create new empty hashMaps for the graph.
-     *
-     * @return none return
      */
     public DWGraph_DS() {
         int Edges = 0;
